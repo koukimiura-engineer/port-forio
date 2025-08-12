@@ -76,19 +76,16 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Eコマースプラットフォーム",
+    title: "試合結果・動画連動SaaSアプリ",
     description:
-      "Vue.js + Node.jsで構築したモダンなECサイト。決済機能、在庫管理、ユーザー管理を含む包括的なソリューション。",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
+      "Vue.js + TailwindCSS + TypeScriptで開発した。野球の試合結果・一球ごとのデータを動画と連動して確認できるSaaSアプリ。",
+    image: "/baseball-project.png",
     technologies: [
       { name: "Vue.js", colorClass: "bg-green-100 text-green-800" },
       { name: "Node.js", colorClass: "bg-blue-100 text-blue-800" },
-      { name: "MongoDB", colorClass: "bg-purple-100 text-purple-800" },
-      { name: "Stripe", colorClass: "bg-yellow-100 text-yellow-800" },
+      { name: "TailwindCSS", colorClass: "bg-purple-100 text-purple-800" },
+      { name: "TypeScript", colorClass: "bg-yellow-100 text-yellow-800" },
     ],
-    githubUrl: "https://github.com",
-    demoUrl: "https://example.com",
   },
   {
     title: "データ分析ダッシュボード",
